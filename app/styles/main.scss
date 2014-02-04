@@ -7,13 +7,53 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
     display: none;
 };
 
+.form-holder {
+	width: 620px;
+	text-align: center;
+	margin: 10px auto;
+
+	.form-control {
+		margin-bottom: 12px;
+	}
+}
 
 
+body {
+	background: #f5f5f5;
+};
 
+h3 {
+	margin-top: 5px;
+};
 
+.page-header {
+	background: rgb(255, 255, 255);
+	margin-top: 0px;
+};
 
+.thumbnail > img {
+	height: 255px;
+}
 
+.car-image {
+	height: 255px;
+	width: 335px;
+};
 
+.push {
+	height: 60px;
+}
+
+.footer {
+	height: 60px;
+	background-color: rgb(255, 255, 255);
+};
+
+.todd {
+	color: gray;
+	padding: 20px;
+	text-align: right;
+}
 
 
 
